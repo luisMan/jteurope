@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JTEurope.jnlp">
+  <information>
+    <title>JTEurope</title>
+    <vendor>ProgrammingSection</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JTEurope.jar" size="101405" download="eager" />
+    <jar href="lib/PropertiesManager.jar" size="5285" download="eager" />
+    <jar href="lib/XMLUtilities.jar" size="7416" download="eager" />
+    <jar href="lib/gtranslateapi-1.0.jar" size="11086" download="eager" />
+    <jar href="lib/jl1.0.jar" size="105446" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JTEurope" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="jteurope.JTEurope"  name="JTEurope" />
+  <update check="always"/>
+</jnlp>
