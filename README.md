@@ -1,3 +1,3 @@
 # jteurope
 best board game in javafx
-[https://youtu.be/LOHoHGDMKbY](url)
+[https://www.youtube.com/watch?v=LOHoHGDMKbY&t=289s](url)
